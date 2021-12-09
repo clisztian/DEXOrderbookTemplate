@@ -23,9 +23,9 @@ private ConcurrentHashMap<Long, AnyOrder> outstnd_orders;
 ```
 3. Write a function that returns the price of the best bid and the best ask from the orderbook build in step 2. 
 4. In the main function LimitAndMarketOrderExample.java, a market has been created with an initial set of limit orders on the orderbook. 
-	a. Place 3 buy market orders each with 10, 12, 15 in volume size (you can do this buy placing a limit order well above the best ask. 
-	b. Place a limit order on the ask two price levels above the best ask with a volume of 20
-	c. Print the final orderbook to System.out
+	1. Place 3 buy market orders each with 10, 12, 15 in volume size (you can do this buy placing a limit order well above the best ask. 
+	2. Place a limit order on the ask two price levels above the best ask with a volume of 20
+	3. Print the final orderbook to System.out
 
 This concludes the exercise. Of course, there are many ways to build the real-time order book, some are better/more efficient in time/space than others.  
 We would ultimately like to see how creative your solution is. 	 
