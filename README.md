@@ -4,7 +4,7 @@ DEX is a simple financial securities exchange that allows for a limit orderbook 
 THere are several packages written that will enable a complete simulation of an LOB. 
 
 The files we will consider in this exercise are 
-LimitAndMarketOrderExample.java, and the DEXEventHandler
+LimitAndMarketOrderExample.java, and the DEXEventHandler.java.
 
 The exercise consists of three parts
 
